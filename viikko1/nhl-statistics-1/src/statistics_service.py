@@ -9,9 +9,7 @@ def sort_by_points(player):
 
 
 class StatisticsService:
-    def __init__(self, io):
-        reader = PlayerReader(io)
-
+    def __init__(self, reader):
         self._players = reader.get_players()
 
     def search(self, name):

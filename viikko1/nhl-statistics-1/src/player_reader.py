@@ -4,7 +4,7 @@ from player import Player
 # saa konstruktoriparametrina osoitteen mistä se hakee pelaajien tiedot
 
 class PlayerReader:
-    def __init__(self, url: str):
+    def __init__(self, url):
         self._url = url
 
     def get_players(self):
