@@ -5,10 +5,9 @@ from player_reader import PlayerReader
 
 def main():
     # lisätty alle PlayerReader-luokan olion injektointi
-    reader = StatisticsService(
-      PlayerReader("https://studies.cs.helsinki.fi/nhlstats/2022-23/players.txt")
-    )
+    reader = PlayerReader("https://studies.cs.helsinki.fi/nhlstats/2022-23/players.txt")
     stats = StatisticsService(reader)
+    
     philadelphia_flyers_players = stats.team("PHI")
     top_scorers = stats.top(10)
 
