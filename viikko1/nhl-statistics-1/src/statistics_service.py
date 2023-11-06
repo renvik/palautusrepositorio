@@ -1,13 +1,16 @@
 from player_reader import PlayerReader
 
+# tämän pitäisi saada parametrina PlayerReader-luokan olion
+# vastaa siis esimerkin tiedostoa laskin.py
+# olion määrittelyt tulee tehdä index.py:ssä 
 
 def sort_by_points(player):
     return player.points
 
 
 class StatisticsService:
-    def __init__(self):
-        reader = PlayerReader()
+    def __init__(self, io):
+        reader = PlayerReader(io)
 
         self._players = reader.get_players()
 

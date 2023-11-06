@@ -1,3 +1,4 @@
+# Player on luokka, jonka olioina StatisticsService-luokka käsittelee yksittäisen pelaajan tietoja
 class Player:
     def __init__(self, name, team, goals, assists):
         self.name = name
