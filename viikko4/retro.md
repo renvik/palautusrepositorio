@@ -1,3 +1,4 @@
+Tehtävä 5. Retrospektiivitekniikat
 Retrospektiivi on etenkin Scrumissa käytetty tapahtuma, joka pidetään tyypillisesti sprintin lopuksi ja 
 sen tarkoitus on keskustella siitä, miten tiimin työ sujui ja miten sitä voidaan kehittää edelleen.
 Retrospektiivin voi pitää monin eri tavoin. Usein sen fasilitoi Scrum master ja sen kesto on 
